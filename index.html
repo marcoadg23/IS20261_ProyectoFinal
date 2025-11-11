@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Requerimientos - Proyecto final</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="logo">PF</div>
+            <div>
+                <h1>Requerimientos — Proyecto final</h1>
+                <p class="lead">Proyecto final para la materia de Ingeniería de Software FI - UNAM.</p>
+            </div>
+        </header>
+
+        <section class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="expo">🎤 Proyecto Exposición</button>
+                <button class="tab-btn" data-tab="escrito">📘 Proyecto Escrito</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Exposición -->
+                <div class="tab-panel active" id="expo">
+                    <section class="deadlines">
+                        <div class="deadline card">
+                            <div class="dl-icon">🧑‍🏫</div>
+                            <div class="dl-content">
+                                <div class="dl-title">Entrega: Proyecto final (expuesto)</div>
+                                <div class="dl-date">2 de diciembre de 2025 — 14:59</div>
+                                <div class="dl-count" id="count-expo">Calculando tiempo...</div>
+                            </div>
+                        </div>
+                    </section>
+                    <article class="card">
+                        <div class="section-title">
+                            <h2>Exposición del proyecto final</h2><small>Máximo 20 minutos por equipo</small>
+                        </div>
+                        <div class="req-list">
+                            <div class="req-item">
+                                <h3>Datos de la empresa desarrolladora</h3>
+                                <p>Nombre de la empresa y quiénes son.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Identificación de los miembros</h3>
+                                <p>Roles y cargos dentro del proyecto (líder, ingeniero de software, etc.).</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Nombre, breve descripción y propósito</h3>
+                                <p>Describe el objetivo del software y su utilidad.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Descripción de la solución</h3>
+                                <p>Incluye funcionalidades, requerimientos funcionales y no funcionales, colores, logos
+                                    y aspectos críticos.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Tipos de usuario</h3>
+                                <p>Describe los distintos tipos de usuario y sus características.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Prototipos del sistema</h3>
+                                <p>Flujo y descripción de interfaces de usuario (mostrar en software elegido).</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Estimación de tiempo y costo</h3>
+                                <p>Utiliza cronogramas y presupuestos para justificar tiempo y costo estimado.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="section-title">
+                            <h2>Notas adicionales</h2><small>Organización de la exposición</small>
+                        </div>
+                        <ul class="req-list" style="list-style:none;padding:0">
+                            <li class="req-item">Cada equipo tiene máximo de 20 minutos.</li>
+                            <li class="req-item">Antes de la primera sesión, subir presentación a Classroom (solo
+                                líder).</li>
+                            <li class="req-item">Todos los integrantes deben participar y conocer el proyecto.</li>
+                            <li class="req-item">Prototipos explicados en software elegido (no solo pantallazos).</li>
+                            <li class="req-item">Avisar si requieren software adicional o adaptadores.</li>
+                            <li class="req-item">Habrá preguntas al final (posibles invitados).</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <!-- Proyecto Escrito -->
+                <div class="tab-panel" id="escrito">
+                    <section class="deadlines">
+                        <div class="deadline card">
+                            <div class="dl-icon">📄</div>
+                            <div class="dl-content">
+                                <div class="dl-title">Entrega: Proyecto escrito</div>
+                                <div class="dl-date">6 de diciembre de 2025 — 23:59</div>
+                                <div class="dl-count" id="count-written">Calculando tiempo...</div>
+                            </div>
+                        </div>
+                    </section>
+                    <article class="card">
+                        <div class="section-title">
+                            <h2>Proyecto escrito</h2><small>Documento de entrega final</small>
+                        </div>
+                        <div class="req-list">
+                            <div class="req-item">
+                                <h3>Datos de la empresa</h3>
+                                <p>Nombre, objetivos, misión y visión.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Miembros y roles</h3>
+                                <p>Integrantes con su rol dentro del proyecto.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Stakeholders</h3>
+                                <p>Identificación y clasificación de todos los interesados (usar tabla).</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Estudio de factibilidad</h3>
+                                <p>Justificación de viabilidad técnica, económica y operativa.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Técnicas de obtención de requerimientos</h3>
+                                <p>Documentar, clasificar y justificar las técnicas aplicadas.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Cronograma y ruta crítica</h3>
+                                <p>Tabla descriptiva, grafo, actividades críticas y holguras.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Documento de requerimientos</h3>
+                                <p>Historial de versiones, propósito, alcance, aprobaciones, referencias,
+                                    funcionalidades, usuarios, entorno, requerimientos funcionales y no funcionales,
+                                    priorización, matrices y trazabilidad.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Prevención de escenarios</h3>
+                                <p>Al menos 5 conflictos potenciales, clasificación y resolución.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Prototipos del sistema</h3>
+                                <p>Incluye diagramas de componentes (caja negra o blanca), contexto, clases, secuencia y
+                                    actividades.</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Presupuesto</h3>
+                                <p>Cálculo del costo por persona y total (mano de obra, hardware y software).</p>
+                            </div>
+                            <div class="req-item">
+                                <h3>Arquitectura</h3>
+                                <p>Arquitectura propuesta (ej. multicapa), aspectos críticos y ventajas.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>IS 2026-1 — Ingeniería de Software</div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
